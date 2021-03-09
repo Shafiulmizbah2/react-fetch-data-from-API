@@ -1,0 +1,74 @@
+.container{
+    margin: 0 auto;
+    max-width: 117rem;
+    padding: 2vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .heading{
+        padding: 0 1rem;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 400;
+        color: rgb(8, 163, 91);
+        text-transform: capitalize;
+
+        &-tertiary{
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            color: rgb(107, 107, 107);
+            text-transform: capitalize;
+        }
+    }
+
+    .persons{
+        padding: 5vh 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .person{
+        width: 30rem;
+        padding: 2rem 1rem;
+        margin: 2rem;
+        background: #fff;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .profile{
+            height: 5rem;
+            width: 5rem;
+            margin: 0 2rem;
+            border-radius: 100px;
+            background-color: aquamarine;
+            overflow: hidden;
+
+            &-img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .content{
+            display: flex;
+            align-items: flex-start;
+            justify-content:center;
+            flex-direction: column;
+
+            .btn{
+                text-decoration: none;
+                color: rgb(8, 163, 91);
+                font-weight: 500;
+            }
+        }
+
+    }
+}
