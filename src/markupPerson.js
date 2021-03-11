@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function markupPerson(props) {
+export function Person(props) {
     return (
        
         <div className="person">
@@ -10,7 +10,9 @@ export default function markupPerson(props) {
             <div className="content">
                 <h3 className="heading-tertiary">{props.name}</h3>
                 <a href={props.link} className="btn">Profile</a>
+                {/* {props.children} */}
             </div> 
+            
         </div>   
               
     )
